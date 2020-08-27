@@ -1,0 +1,11 @@
+server:
+  port: 8762
+spring:
+  application:
+    name: d-gateway
+  cloud:
+    nacos:
+      discovery:
+        enabled: true
+        ip: 127.0.0.1
+        port: 8080
